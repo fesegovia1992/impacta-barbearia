@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Fundo suave */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal */
+div {
+  background-color: #ffffff; /* Fundo branco para o container */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Título */
+h1 {
+  color: #2c3e50; /* Azul escuro */
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 0.75rem;
+  border: 2px solid #3498db; /* Azul */
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #e74c3c; /* Vermelho ao focar */
+}
+
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #3498db; /* Azul */
+  color: #ffffff;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
+
+button[type="button"] {
+  background-color: #e74c3c; /* Vermelho */
+  color: #ffffff;
+}
+
+button[type="button"]:hover {
+  background-color: #c0392b; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Lista de agendamentos */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+li {
+  background-color: #ecf0f1; /* Cinza claro */
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #e74c3c; /* Vermelho */
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b; /* Vermelho mais escuro ao passar o mouse */
+}
+
+li button:first-of-type {
+  background-color: #3498db; /* Azul */
+  margin-right: 0.5rem;
+}
+
+li button:first-of-type:hover {
+  background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
