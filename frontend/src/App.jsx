@@ -109,8 +109,8 @@ const App = () => {
                 {agendamentos.map((agendamento) => (
                     <li key={agendamento.id}>
                         {agendamento.nome_cliente} - {agendamento.servico} ({formatarDataHora(agendamento.data, agendamento.horario)})
-                        {/* <button onClick={() => handleEditar(agendamento)}>Editar</button>
-                        <button onClick={() => handleExcluir(agendamento.id)}>Excluir</button> */}
+                        {/* <button onClick={() => handleEditar(agendamento)}>Editar</button> */}
+                        <button onClick={() => handleExcluir(agendamento.id)}>Excluir</button>
                     </li>
                 ))}
             </ul>
