@@ -99,11 +99,11 @@ const App = () => {
                 <button type="submit">
                     {editandoId ? 'Atualizar' : 'Agendar'}
                 </button>
-                {/* {editandoId && (
+                {editandoId && (
                     <button type="button" onClick={limparFormulario}>
                         Cancelar Edição
                     </button>
-                )} */}
+                )}
             </form>
             <ul>
                 {agendamentos.map((agendamento) => (
